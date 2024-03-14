@@ -9,7 +9,7 @@ def main():
         video_language = sys.argv[1]
         video_filepath = sys.argv[2]
         model_name = sys.argv[3]
-    if len(sys.argv) == 3:
+    elif len(sys.argv) == 3:
         video_language = sys.argv[1]
         video_filepath = sys.argv[2]
     elif len(sys.argv) == 2:
